@@ -177,8 +177,11 @@ speed_test() {
 
 speed() {
     speed_test 'http://cachefly.cachefly.net/100mb.test' 'CacheFly'
-    speed_test 'http://speedtest.tokyo.linode.com/100MB-tokyo.bin' 'Linode, Tokyo, JP'
+    speed_test 'http://speedtest.tokyo2.linode.com/100MB-tokyo.bin' 'Linode, Tokyo, JP'
+    speed_test 'http://speedtest.mumbai1.linode.com/100MB-mumbai.bin' 'Linode, Mumbai, IN'
     speed_test 'http://speedtest.singapore.linode.com/100MB-singapore.bin' 'Linode, Singapore, SG'
+    speed_test 'http://speedtest.franfurt.linode.com/100MB-frankfurt.bin' 'Linode, Franfurt, DE'
+    speed_test 'http://speedtest.syd1.linode.com/100MB-syd.bin' 'Linode, Sydney, AU'	
     speed_test 'http://speedtest.london.linode.com/100MB-london.bin' 'Linode, London, UK'
     speed_test 'http://speedtest.frankfurt.linode.com/100MB-frankfurt.bin' 'Linode, Frankfurt, DE'
     speed_test 'http://speedtest.fremont.linode.com/100MB-fremont.bin' 'Linode, Fremont, CA'
@@ -187,6 +190,10 @@ speed() {
     speed_test 'http://speedtest.fra02.softlayer.com/downloads/test100.zip' 'Softlayer, Frankfurt, DE'
     speed_test 'http://speedtest.sng01.softlayer.com/downloads/test100.zip' 'Softlayer, Singapore, SG'
     speed_test 'http://speedtest.hkg02.softlayer.com/downloads/test100.zip' 'Softlayer, HongKong, CN'
+    speed_test 'https://lg-dtln.justhost.ru/50MB.test' 'JustHostRU DataLine, Moscow, RU'
+    speed_test 'https://lg-dtln.justhost.ru/50MB.test' 'JustHostRU Rostelecom, Kazan, RU'
+    speed_test 'http://lg-ro.vps2day.com/100MB.test' 'VPS2day, Bucharest, RO'
+    speed_test 'https://bg.edis.at/100MB.test' 'EDIS, Sofia, BG'
 }
 
 speed_test_cn(){
